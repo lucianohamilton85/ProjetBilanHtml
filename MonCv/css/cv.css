@@ -1,0 +1,521 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	position: relative;
+	background-color: #f5f5f5;
+	width: 1160px;
+}
+
+.profession{
+	font-size: 2.5vh;
+}
+.nom{
+	font-size: 3.5vh;
+}
+.photo-cv{
+	position: relative;
+	left: 15vh;
+	width: 20vh;
+	height: 20vh;
+	border-radius: 20vh;
+	border: solid 3px #ffffff;
+	top: -4vh;
+	
+}
+.flex-horizontal{
+	position: relative;
+	margin-top: 2px;
+	background-color: #17abb3;
+	display: flex;
+	flex-direction: column-reverse;
+	left: 18vh;
+	width: 170vh;
+}
+
+.presentation-cv{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    top: 5vh;
+    left: 14vh;
+    font-family: lato;
+}
+.mescompetance{
+	position: relative;
+	left: 18vh;
+	width: 28%;
+    border: solid 3px #e3e3e3;
+    border-radius: 3vh;
+    background-color: #e3e3e3;
+    border-radius: 3px;
+}
+.ligne{
+	width: 43vh;
+}
+.ligne-pro{
+	width: 73vh;
+}
+.text-compo{
+	position: relative;
+	left: 3vh;
+}
+
+.competance{
+	position: relative;
+	font-size: 3vh;
+	color: #17abb3;
+	font-family: Lato;
+}
+.profile{
+	position: relative;
+	font-size: 3vh;
+	color: #17abb3;
+	font-family: lato;
+}
+.detail-1-competance{
+	font-size: 2.7vh;
+	position: relative;
+	left: 1.5vh;
+
+}
+.detail-1-profile{
+	font-size: 2.7vh;
+	position: relative;
+	left: 1.5vh;
+	font-family: Raleway;
+}
+.text-detail{
+	margin: 10px;
+	text-align: justify;
+	font-family: Raleway;
+}
+
+.mesprofile{
+	position: relative;
+	float: right;
+	left: 2vh;
+	width: 115vh;
+    border: solid 3px #ffffff;
+    background-color: #f5f5f5;
+    border-radius: 3px;
+}
+.text-formation{
+	position: relative;
+	font-weight: bold;
+	width: 60vh;
+	font-size: 2.5vh;
+	text-align: justify;
+    font-family: Raleway;
+}
+.text-annee{
+	position: relative;
+	left: 77%;
+	font-size: 2.5vh;
+	font-family: Raleway;
+	text-align: justify;
+	font-weight: initial;
+	color: #17abb3;
+	opacity: 1;
+}
+.soustext-profil{
+     position: relative;
+     top: -3vh;	
+     margin: initial;
+     font-size: 2.3vh;
+     font-family: Raleway;
+}
+.piedpage{
+	position: relative;
+	top: 2vh;
+}
+
+.fin{
+	position: relative;
+	text-align: center;
+	font-family: fantasy;
+	float: left;
+	left: 18vh;
+}
+.etoile{
+	position: absolute;
+	margin: 0;
+}
+.etoile .detail-etoile{
+	position: relative;
+	display: inline-block;
+	text-decoration: none;
+}
+ .lesetoile{
+ 	position: relative;
+ 	width: 2.5vh;
+ 	top: -4vh;
+    float: right;
+    left: 34vh;
+ }
+ .mesSocial{
+ 	position: absolute;
+    margin: 0;
+ }
+ .mesSocial .detail-social{
+ 	position: relative;
+	display: inline-block;
+	text-decoration: none;
+ }
+ .imgSocial{
+ 	position: relative;
+ 	width: 4vh;
+ 	margin: 2vh;
+ 	top: -6vh;
+    float: right;
+    left: 70vh;
+    top: -1vh;
+ }
+ .miseJour{
+ 	position: relative;
+ 	width: 4vh;
+ 	margin: 2vh;
+ 	top: -6vh;
+    float: right;
+    left: 65vh;
+    top: 2vh;
+    font-family: Raleway;
+    color: #ffffff;
+ }
+.footer{
+	position: relative;
+	background-color: #17abb3;
+	display: flex;
+	flex-direction: column-reverse;
+	left: 18vh;
+	top: -3vh;
+	width: 170vh;
+	height: 9vh;
+}
+.coordonne{
+	position: absolute;
+	left: -8vh;
+}
+.auto{
+	position: relative;
+    width: 3vh;
+    left: 83vh;
+	top: -12vh;
+
+}
+.detail-auto{
+  position: relative;
+    left: 91vh;
+	top: -15vh;	
+	font-family: Raleway;
+	 font-size: 2.2vh;
+}
+.domicile{
+	position: relative;
+	width: 3vh;
+	left: 83vh;
+	top: -5vh;
+}
+.detail-domicile{
+	position: relative;
+	left: 103vh;
+	top: -8vh;
+	font-family: Raleway;
+	 font-size: 2.2vh;
+}
+.tel{
+    position: relative;
+    width: 3vh;
+    left: 46vh;
+	top: -6vh;
+}
+.detail-tel{
+	position: relative;
+    left: 63vh;
+	top: -9vh;
+	font-family: Raleway;
+	 font-size: 2.2vh;
+}
+.mail{
+	position: relative;
+	width: 3vh;
+	left: 45vh;
+	top: 2vh;
+}
+.detail-mail{
+	position: relative;
+	left: 63vh;
+	top: -1vh;
+	 font-family: Raleway;
+	 font-size: 2.2vh;
+}
+.respon-3{
+	position: relative;
+	top: -1vh;
+}
+
+
+/*   ======================= responsive ============= */
+
+@media (max-width : 398px){
+	*{
+	padding: 0;
+	margin: 0;
+}
+ul li{
+	display: inline-block;
+}
+body{
+	position: absolute;
+	background-color: #f5f5f5;
+	width: initial;
+	left: -5vh;
+	padding: 0px!important;
+}
+.nom{
+	font-family: Lato;
+    font-size: 3vh;
+	position: relative;
+	left: -10vh;
+}
+.profession{
+	position: relative;
+	left: -10vh;
+	font-family: Raleway;
+	 font-size: 2.5vh;
+}
+.photo-cv{
+	position: relative;
+	left: 22vh;
+	width: 15vh;
+	height: 15vh;
+	border-radius: 20vh;
+	border: solid 3px #ffffff;
+	top:-29vh;
+}
+
+.flex-horizontal{
+	position: relative;
+	margin-top: 2px;
+	background-color: #17abb3;
+	display: flex;
+	flex-direction: column-reverse;
+	width: 58vh;
+	height: 49vh;
+	padding: 0px;
+	margin-left: -12vh;
+}
+.presentation-cv{
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+    top: -5vh;
+    left: 15vh;
+    width: 53vh;
+    text-align: center;
+
+}
+.mescompetance{
+	position: relative;
+	left: 18vh;
+	width: 57vh;
+	margin-left: -12vh;
+    border: solid 3px #e3e3e3;
+    border-radius: 3vh;
+    background-color: #e3e3e3;
+    border-radius: 3px;
+    padding: 0px!important;
+}
+.detail-1-competance{
+	position: relative;
+	left: 1.5vh;
+	padding: 0px!important;
+}
+.competance{
+	position: relative;
+	color: #17abb3;
+	font-size: 18px;
+	margin: 0px!important;
+}
+.ligne{
+	width: 23vh;
+}
+.text-detail{
+	position: relative;
+	text-align: justify;;
+	margin: initial;
+	width: 55vh;
+	font-family: Raleway;
+}	
+.mesprofile{
+	position: absolute;
+	left: 18vh;
+	width: 57vh;
+	margin-left: -12vh;
+	top: 173vh;
+    border: solid 3px #e3e3e3;
+    border-radius: 3vh;
+    background-color: #e3e3e3;
+    border-radius: 3px;
+}
+.profile{
+	position: relative;
+	font-size: 18px;
+	margin: 0px!important;
+	margin-top: 1vh;
+	color: #17abb3;
+	font-family: lato;
+}
+
+.flex-reseaux{
+	position: relative;
+	background-color: #17abb3;
+	margin-left: -12vh;
+	width: 55vh;
+    top: 254vh;
+}
+.text-formation{
+	position: relative;
+	font-weight: bold;
+	width: 50vh;
+	text-align: justify;
+	font-family: Raleway;
+}
+.ligne-pro{
+	width: 43vh;
+}
+.text-annee{
+	position: relative;
+	left: 12vh;
+	top: 3vh;
+	font-weight: bold;
+	font-size: 2.6vh;
+	
+	text-align: center;
+	font-weight: initial;
+	font-family: Raleway;
+	color: #17abb3;
+}
+.soustext-profil{
+     position: relative;
+     top: -3vh;	
+     margin-bottom: 5%;
+     font-size: 2.4vh;
+     font-family: Raleway;
+}
+.fin{
+	position: relative;
+	text-align: center;
+	font-family: fantasy;
+	float: left;
+	left: 7vh;
+	top: 268vh;
+}
+.lesetoile{
+ 	position: relative;
+ 	width: 2vh;
+ 	top: -4vh;
+    float: right;
+    left: 40vh;
+ }
+ .footer{
+	position: relative;
+	background-color: #17abb3;
+	display: flex;
+	flex-direction: column-reverse;
+	left: 6vh;
+	top: 267vh;
+	width: 58.5vh;
+	height: 9vh;
+	padding-bottom: initial;
+	margin-bottom: initial;
+}
+.imgSocial{
+ 	position: relative;
+ 	width: 4vh;
+ 	margin: 1vh;
+ 	left: 17vh;
+	top: 253vh;
+    top: -2vh;
+ }
+ .mesSocial .detail-social{
+ 	position: relative;
+	display: inline-block;
+	text-decoration: none;
+ }
+ .miseJour{
+ 	position: relative;
+ 	width: 4vh;
+    left: 13vh;
+    font-size: 2vh;
+    font-family: Raleway;
+    color: #ffffff;
+ }
+ .coordonne{
+	position: absolute;
+	left: -60vh;
+     width: 30vh;
+     padding: 3px;
+     margin: 2px;
+     font-family: Raleway;
+}
+.respon-1{
+	position: relative;
+	left: -40vh;
+	top: 2vh;
+}
+.respon-2{
+	position: relative;
+	left: -39vh;
+	top: 4vh;
+}
+.respon-3{
+	position: relative;
+	top: -2.5vh;
+	left: -2vh;
+}
+.respon-4{
+	position: relative;
+	top: 0.8vh;
+	left: -3vh;
+}
+.detail-auto{
+  position: relative;
+    left: 92vh;
+	top: -16vh;	
+	font-family: Raleway;
+	 font-size: 2.5vh;
+}
+.detail-tel{
+	position: relative;
+    left: 61vh;
+	top: -10vh;
+	font-family: Raleway;
+	 font-size: 2vh;
+}
+.detail-domicile{
+	position: relative;
+	left: 99vh;
+	top: -9vh;
+	font-family: Raleway;
+	 font-size: 2.3vh;
+}
+.detail-mail{
+	position: relative;
+	left: 63vh;
+	top: -2vh;
+	 font-family: Raleway;
+	 font-size: 2.5vh;
+}
+.piedpage{
+	position: relative;
+	top: -23vh;
+}
+.tel{
+	width: 2.4vh;
+}
+.mail{
+	width: 2.4vh;
+}
+}
